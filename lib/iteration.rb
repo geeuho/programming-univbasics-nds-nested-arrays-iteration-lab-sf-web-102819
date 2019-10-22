@@ -33,5 +33,5 @@ def total_even_pairs(src)
         row_index += 1
       end
     end
-    addends.sum 
+  addends.sum 
 end
