@@ -11,6 +11,15 @@ end
 
 def find_greater_pair(src)
   row_index = 0
+  greater_numbers = []
+    while row_index < src.count do
+      if src[row_index][0] > src[row_index][1]
+        greater_numbers << src[row_index][0] 
+      else
+        greater_numbers << src[row_index][1]
+      end
+    end
+  greater_numbers
 end
 
 def total_even_pairs(src)
