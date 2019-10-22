@@ -31,4 +31,10 @@ def total_even_pairs(src)
         sum = src[row_index][0] + src[row_index][1]
         addends << sum 
         row_index += 1
+      end
+    end
+    
+    addend_index = 0;
+    while addend_index < addends.length do
+      addends[addend_index] += 
 end
