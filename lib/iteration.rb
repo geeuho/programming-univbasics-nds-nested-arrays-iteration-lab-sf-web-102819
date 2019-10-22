@@ -4,6 +4,7 @@ def join_ingredients(src)
     while row_index < src.count do 
        pizza = "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
        i_love_pizza << pizza
+       row_index += 1
     end
   i_love_pizza
 end
