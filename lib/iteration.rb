@@ -2,8 +2,8 @@ def join_ingredients(src)
   row_index = 0; 
     while row_index < src.count do 
        "I love #{src[0]} and #{src[1]} on my pizza"
-    end    
-      
+       
+    end
 end
 
 def find_greater_pair(src)
