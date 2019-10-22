@@ -30,8 +30,8 @@ def total_even_pairs(src)
       if src[row_index][0].even? && src[row_index][1].even?
         sum = src[row_index][0] + src[row_index][1]
         addends << sum 
-        row_index += 1
       end
+    row_index += 1
     end
   addends.sum 
 end
